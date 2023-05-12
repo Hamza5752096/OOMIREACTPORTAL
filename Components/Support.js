@@ -3,6 +3,7 @@ import "./CSS/support.css";
 import Supportticket from "./Support-ticket.js";
 import Summary from "./Summary";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+
 const Support = () => {
   return (
     <div className="support-sec">
@@ -29,9 +30,6 @@ const Support = () => {
             name="ticket-updates"
           ></input>
           <label for="ticket-updates">Email ticket updates?</label>
-          {/* 
-          <input type="checkbox" className="checkbox"></input>
-          <label className="checkbox-text">Email ticket updates?</label>*/}
         </div>
       </div>
       <hr />
