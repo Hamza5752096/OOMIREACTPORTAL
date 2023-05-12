@@ -29,7 +29,7 @@ const Supportticket = () => {
               <br /> 20m
             </td>
             <td>
-              <label className="td-btn">QA</label>
+              <label className="ST-td-btn">QA</label>
             </td>
           </tr>
           <tr>
@@ -39,7 +39,7 @@ const Supportticket = () => {
             <td>9 Dec 2022 - 16:50</td>
             <td className="td-time-align"></td>
             <td>
-              <label className="td-btn">Client Input Required</label>
+              <label className="ST-td-btn">Client Input Required</label>
             </td>
           </tr>
           <tr>
@@ -49,7 +49,7 @@ const Supportticket = () => {
             <td>2 Dec 2022 - 09:58</td>
             <td className="td-time-align">47m</td>
             <td>
-              <label className="td-btn">QA</label>
+              <label className="ST-td-btn">QA</label>
             </td>
           </tr>
           <tr>
@@ -59,7 +59,7 @@ const Supportticket = () => {
             <td>16 Nov 2022 - 08:19</td>
             <td className="td-time-align"></td>
             <td>
-              <label className="btn-done">Done</label>
+              <label className="ST-btn-done">Done</label>
             </td>
           </tr>
           <tr>
@@ -69,7 +69,7 @@ const Supportticket = () => {
             <td>11 Nov 2022 - 16:23</td>
             <td className="td-time-align">1h 1m</td>
             <td>
-              <label className="btn-done">Done</label>
+              <label className="ST-btn-done">Done</label>
             </td>
           </tr>
         </table>

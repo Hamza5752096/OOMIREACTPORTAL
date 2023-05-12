@@ -1,5 +1,7 @@
 import React from "react";
 import "./CSS/filter.css";
+import "bootstrap/dist/css/bootstrap.css";
+import Calendar from "react-calendar";
 
 function Filter() {
   return (
@@ -19,10 +21,16 @@ function Filter() {
           <input type="text" placeholder="Raised by"></input>
         </div>
         <div className="filter-sec">
-          <label className="filter-txt">From</label>
-          <select className="select-option">
-            <option></option>
-          </select>
+          <label for="start" className="filter-txt">
+            From
+          </label>
+          <input type="date" id="start"></input>
+
+          {/* <select className="select-option">
+            <option>
+             <input type="date" id="start"></input>
+            </option>
+          </select> */}
         </div>
         <div className="filter-sec">
           <label className="filter-txt">To</label>

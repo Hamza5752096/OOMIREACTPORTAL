@@ -14,25 +14,32 @@
   color: #fff;
   padding: 20px;
 }
-.td-btn {
+.ST-td-btn {
   border: 2px solid #282b3e;
   background: none;
   padding: 0px 5px;
   border-radius: 10px;
-  font-weight: 900;
   color: #282b3e;
+  font-weight: 700;
 }
-.btn-done {
+.ST-btn-done {
   border: 2px solid #4ee911;
   background: none;
   padding: 0px 5px;
   border-radius: 10px;
-  font-weight: 900;
   color: #4ee911;
+  font-weight: 700;
 }
 .td-id {
   color: #33b7ff;
 }
 .td-time-align {
   text-align: center;
+}
+.td-id a {
+  color: #33b7ff;
+  text-decoration: none;
+}
+.support-ticket {
+  margin-top: 60px;
 }
